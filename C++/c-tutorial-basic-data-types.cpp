@@ -22,7 +22,6 @@ int main() {
     float e;
     double f;
     cin >> a >> b >> c >> d >> e >> f;
-    cout << f << endl;
     printf("%d\n%ld\n%lld\n%c\n%f\n%lf", a,b,c,d,e,f);
     return 0;
 }
