@@ -1,6 +1,7 @@
+package Input1;
+
 /**
- * 
- * @author fang
+ * Created by fang on 01/11/2016.
  *Most HackerRank challenges require you to read input from stdin (standard input) and write output to stdout (standard output).
  *
  *One popular way to read input from stdin is by using the Scanner class and specifying the Input Stream as System.in. For example:
@@ -39,10 +40,11 @@
  *125
  */
 
+
 import java.util.*;
 
-public class Input {
-	public static void main(String[] args) {
+public class Input1 {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
